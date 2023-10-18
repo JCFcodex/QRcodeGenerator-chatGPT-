@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #444;
   margin: 0;
   padding: 10px;
   display: flex;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #333;
   width: 100%;
   max-width: 400px;
   padding: 20px;
@@ -50,7 +50,7 @@ label {
   font-size: 16px;
   display: block;
   margin-bottom: 5px;
-  color: #333;
+  color: #fff;
 }
 
 input[type="text"] {
@@ -60,6 +60,8 @@ input[type="text"] {
   border-radius: 3px;
   font-size: 10px;
   transition: all 0.5s ease;
+  background-color: transparent;
+  color: #fff;
 }
 
 input[type="text"]:focus {
